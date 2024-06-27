@@ -286,7 +286,7 @@ body {
   height: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .Navigation {
     margin: 0;
   }

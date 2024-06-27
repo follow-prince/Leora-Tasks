@@ -1,0 +1,216 @@
+/* ==============navigation  decathlon start=============================== */
+/* ____________menu bar button (start)_____________ */
+.nav-bar {
+  display: grid;
+  grid-template-columns: 2fr 3fr 7fr 3fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+.nav-menu-icon {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.nav-menu-icon img {
+  width: 30px;
+  height: 30px;
+}
+.nav-menu-icon img:hover {
+  cursor: pointer;
+}
+.nav-menu-icon img:active {
+  transform: scale(0.9);
+}
+.nav-menu-icon span {
+  font-size: 18px;
+  color: #000;
+  padding-left: 5px;
+}
+/* ____________menu bar button (end)_____________ */
+
+/* ____________logo (start)_____________ */
+.nav-logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo img {
+  width: 150px;
+  height: 50px;
+}
+/* ____________logo (end)_____________ */
+/* ____________search (start)_____________ */
+.nav-search-bar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-search-bar input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  padding: 5px;
+}
+.nav-search-bar img {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+.nav-search-bar img:hover {
+  cursor: pointer;
+}
+.nav-search-bar img:active {
+  transform: scale(0.9);
+}
+
+/* ____________search (end)_____________ */
+/* ____________nav-delivery-location (start)_____________ */
+.nav-delivery-location {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ____________nav-delivery-location (end)_____________ */
+/* ____________nav-account (start)_____________ */
+.nav-account {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: cencartter;
+  align-items: center;
+}
+.nav-account img {
+  width: 30px;
+  height: 30px;
+}
+.nav-account img:hover {
+  cursor: pointer;
+}
+.nav-account img:active {
+  transform: scale(0.9);
+}
+.nav-account span {
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    font-weight: 700;
+    
+}
+/* ____________nav-account (end)_____________ */
+/* ____________nav-my-store (start)_____________ */
+.nav-my-store {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-my-store img {
+  width: 30px;
+  height: 30px;
+}
+.nav-my-store img:hover {
+  cursor: pointer;
+}
+.nav-my-store img:active {
+  transform: scale(0.9);
+}
+.nav-my-store span {
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    font-weight: 700;
+    
+}
+
+/* ____________nav-my-store (end)_____________ */
+/* ____________nav-support (start)_____________ */
+.nav-support {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-support img {
+  width: 30px;
+  height: 30px;
+}
+.nav-support img:hover {
+  cursor: pointer;
+}
+.nav-support img:active {
+  transform: scale(0.9);
+}
+.nav-support span {
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    font-weight: 700;
+    
+}
+/* ____________nav-support (end)_____________ */
+/* ____________nav-wishlist (start)_____________ */
+.nav-wishlist {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-wishlist img {
+  width: 30px;
+  height: 30px;
+}
+.nav-wishlist img:hover {
+  cursor: pointer;
+}
+.nav-wishlist img:active {
+  transform: scale(0.9);
+}
+.nav-wishlist span {
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    font-weight: 700;
+    
+}
+/* ____________nav-wishlist (end)_____________ */
+/* ____________nav-cart (start)_____________ */
+.nav-cart {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-cart img {
+  width: 30px;
+  height: 30px;
+}
+.nav-cart img:hover {
+  cursor: pointer;
+}
+.nav-cart img:active {
+  transform: scale(0.9);
+}
+.nav-cart span {
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    font-weight: 700;
+    
+}
+/* ____________nav-cart (end)_____________ */
+
+/* ==============navigation  decathlon end=============================== */
