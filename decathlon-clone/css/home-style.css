@@ -1,8 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
 /* ==============navigation  decathlon start=============================== */
 /* ____________menu bar button (start)_____________ */
 .nav-bar {
   display: grid;
-  grid-template-columns: 2fr 3fr 7fr 3fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr 6fr 3fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 10px;
   background-color: #f8f9fa;
@@ -30,6 +38,187 @@
   color: #000;
   padding-left: 5px;
 }
+/* --------------Animation menu List card------------------------- */
+
+.nav__menu {
+  position: relative;
+  z-index: 800;
+  background-color: #f4f4f4;
+  display: block;
+  width: 0;
+}
+
+.is--active .nav__menu {
+  width: 100%;
+  height: 650px;
+  border-radius: 0;
+}
+.nav__menu h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* ++++++++++++++++collection of list TAB ++++++++++++++++++++++++ */
+.navtabs {
+  display: none;
+  justify-content: start;
+  background: #f4f4f4;
+  padding: 10px 20px;
+  position: relative;
+  border-bottom: solid rgb(153, 153, 153) 0.03rem;
+}
+.navtab {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.navtab:hover {
+  color: #3643ba;
+}
+.navtab.active {
+  color: #3643ba;
+  font-weight: 600;
+}
+.underline {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background: #3643ba;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
+
+.content.active {
+  display: block;
+}
+
+.is--active .navtabs {
+  display: flex;
+}
+
+.tab-inside-list {
+  display: none;
+}
+.is--active .tab-inside-list {
+  display: flex;
+}
+.is--active .all_list_elements-grid {
+  display: flex;
+}
+/* **********************Grid Using******************************* */
+.all_sports_list-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 60%);
+  grid-template-columns: repeat(5, 17%);
+  grid-gap: 20px;
+
+}
+.all_sports_list-grid p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4e5d6b;
+  padding-top: 20px;
+}
+.all_sports_list-grid-men {
+  display: grid;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 10px;
+  grid-auto-rows: 100px 200px;
+
+}
+.all_sports_list-grid-men p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4e5d6b;
+  padding-top: 20px;
+}
+
+.Outdoor-items {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #001a31;
+  padding-bottom: 10px;
+}
+.all_list_elements-grid {
+  display: none;
+    justify-content: space-between;
+
+}
+.all_list_elements-grid img {
+    width: 400px;
+    justify-self: end;    
+}
+.nav-quick-link-text button {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    background-color: #3643ba;
+    border: none;
+    width: 100%;
+    height: 40px;
+    
+}
+.nav-quick-link-text button:hover {
+    cursor: pointer;
+}
+.nav-quick-link-text button:active {
+    transform: scale(0.9);
+}
+.nav-quick-link-text button:focus {
+    outline: none;
+}
+
+/* ____________menu bar button (end)_____________ */
+.nav-quick-links-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+.nav-quick-links-items a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.nav-quick-links-items span {
+    text-align: end;
+}
+.nav-quick-links-items:hover {
+    color: #3643ba;
+}
+.nav-quick-links-items :active {
+    transform: scale(0.9);
+}
+.nav-quick-links-items :focus {
+    outline: none;
+}
+/* ____________menu bar button (start)_____________ */
+
+/* ++++++++++++++++collection of list TAB ++++++++++++++++++++++++ */
+
+/* ----------------------------------- */
+
 /* ____________menu bar button (end)_____________ */
 
 /* ____________logo (start)_____________ */
@@ -99,11 +288,10 @@
   transform: scale(0.9);
 }
 .nav-account span {
-    font-size: 14px;
-    color: #000;
-    padding-left: 5px;
-    font-weight: 700;
-    
+  font-size: 14px;
+  color: #000;
+  padding-left: 5px;
+  font-weight: 700;
 }
 /* ____________nav-account (end)_____________ */
 /* ____________nav-my-store (start)_____________ */
@@ -113,7 +301,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .nav-my-store img {
   width: 30px;
@@ -126,11 +313,10 @@
   transform: scale(0.9);
 }
 .nav-my-store span {
-    font-size: 14px;
-    color: #000;
-    padding-left: 5px;
-    font-weight: 700;
-    
+  font-size: 14px;
+  color: #000;
+  padding-left: 5px;
+  font-weight: 700;
 }
 
 /* ____________nav-my-store (end)_____________ */
@@ -153,11 +339,10 @@
   transform: scale(0.9);
 }
 .nav-support span {
-    font-size: 14px;
-    color: #000;
-    padding-left: 5px;
-    font-weight: 700;
-    
+  font-size: 14px;
+  color: #000;
+  padding-left: 5px;
+  font-weight: 700;
 }
 /* ____________nav-support (end)_____________ */
 /* ____________nav-wishlist (start)_____________ */
@@ -179,11 +364,10 @@
   transform: scale(0.9);
 }
 .nav-wishlist span {
-    font-size: 14px;
-    color: #000;
-    padding-left: 5px;
-    font-weight: 700;
-    
+  font-size: 14px;
+  color: #000;
+  padding-left: 5px;
+  font-weight: 700;
 }
 /* ____________nav-wishlist (end)_____________ */
 /* ____________nav-cart (start)_____________ */
@@ -205,12 +389,43 @@
   transform: scale(0.9);
 }
 .nav-cart span {
-    font-size: 14px;
-    color: #000;
-    padding-left: 5px;
-    font-weight: 700;
-    
+  font-size: 14px;
+  color: #000;
+  padding-left: 5px;
+  font-weight: 700;
 }
 /* ____________nav-cart (end)_____________ */
 
 /* ==============navigation  decathlon end=============================== */
+
+/* ==============home page start=============================== */
+.offer-update_event_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3643ba;
+    height: 40px;
+    width: 100%;
+}
+.offer-update_event_label p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+.offer-update_event_label p:hover {
+    cursor: pointer;
+}
+.offer-update_event_label p:active {
+    transform: scale(0.9);
+}
+.offer-update_event_label p:focus {
+    outline: none;
+}
+
+/* ================catagories-home_page_grid=============================== */
+.catagories-home_page_grid {
+    display: flex;
+    justify-content: space-around;
+}
