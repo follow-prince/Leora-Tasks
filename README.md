@@ -1,6 +1,8 @@
 <h1 style="">Leora Tasks Projects</h1>
     <p>Welcome to the <strong style=" font-weight: 800">Leora tasks</strong> repository! This repository showcases a collection of sample websites and clone websites created as part of Leora's training program. Each project is hosted online, allowing you to view and interact with the live versions.</p> 
-    <p style="color:; border: solid white 0.002rem; padding: 5px; display:flex; text-align:center; align-items:center"><img  style="width:100px ;height:80px" src="https://www.leorainfotech.in/static/media/Leora%20Logo.0814c6ddd1992c31dac0.png" /><b style="text-align:start; padding:10px">Leora Info Tech is located in Gummudipoondi and focuses on making software and providing IT services. They create websites, mobile apps, and help businesses use cloud computing. With a talented team and a promise of high quality, Leora Info Tech offers smart tech solutions to help businesses succeed.</p>
+    <p style="color:; border: solid white 0.002rem; padding: 5px; display:flex; text-align:center; align-items:center ;  justify-content: center;
+  align-items: center;
+  text-align: center;" ><img  style="width:100px ;height:80px" src="https://www.leorainfotech.in/static/media/Leora%20Logo.0814c6ddd1992c31dac0.png" /><b style="text-align:start; padding:10px">Leora Info Tech is located in Gummudipoondi and focuses on making software and providing IT services. They create websites, mobile apps, and help businesses use cloud computing. With a talented team and a promise of high quality, Leora Info Tech offers smart tech solutions to help businesses succeed.</p>
     <h2>Projects Overview</b></h2>
     <p>Below is a list of the projects included in this repository, along with their live hosting links:</p>
         <h3>3. Project Three: Sample E-commerce Website</h3>
