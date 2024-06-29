@@ -15,12 +15,12 @@ body {
 }
 .project-list {
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: 20px;
     padding: 20px;
     margin: 0 auto;
     width: 100%;
-  
+
   
 }
 .project {
