@@ -59,5 +59,4 @@ Contributions are welcome! If you would like to add your own projects or improve
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Thank you for visiting the Leora Training Projects repository! We hope these projects inspire and help you in your learning journey.
+##### Thank you for visiting the Leora Training Projects repository! We hope these projects inspire and help you in your learning journey.
