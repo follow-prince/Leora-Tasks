@@ -7,6 +7,12 @@ body {
 
 /* ==============navigation  decathlon start=============================== */
 /* ____________menu bar button (start)_____________ */
+.nav-bar-dont-scroll {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+}
 .nav-bar {
   display: grid;
   grid-template-columns: 2fr 3fr 6fr 3fr 1fr 1fr 1fr 1fr 1fr;
@@ -394,7 +400,15 @@ body {
 /* ==============navigation  decathlon end=============================== */
 
 /* ==============home page start=============================== */
+.offer-update_event_label-container{
+  display: flex;
+
+  height: 80px;
+  width: 100%;
+
+}
 .offer-update_event_label {
+  
   display: flex;
   justify-content: center;
   align-items: center;

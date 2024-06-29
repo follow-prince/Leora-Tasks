@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Decathlon-Clone</title>
-    <link rel="stylesheet" href="./css/home-style.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- navigation  start -->
-    <div>
+    <div class="nav-bar-dont-scroll">
       <nav class="nav-bar">
         <div class="nav-menu-icon">
           <div class="all-menu">
@@ -51,476 +51,506 @@
           <span>Cart</span>
         </div>
       </nav>
-    </div>
-    <!-- navigation menu list  start-->
-    <nav class="nav__menu">
-      <div class="all_list_elements-grid">
-        <div class="nav_card_layout">
-          <div class="navtabs">
-            <div class="navtab active" data-target="home">AlL Sports</div>
-            <div class="navtab" data-target="about">Men</div>
-            <div class="navtab" data-target="contact">Women</div>
-            <div class="navtab" data-target="page4">Kids</div>
-            <div class="navtab" data-target="page5">Sports Accessories</div>
-            <div class="navtab" data-target="page6">
-              Gym Wear, Accessories & Equipments
+      <!-- navigation menu list  start-->
+      <nav class="nav__menu">
+        <div class="all_list_elements-grid">
+          <div class="nav_card_layout">
+            <div class="navtabs">
+              <div class="navtab active" data-target="home">AlL Sports</div>
+              <div class="navtab" data-target="about">Men</div>
+              <div class="navtab" data-target="contact">Women</div>
+              <div class="navtab" data-target="page4">Kids</div>
+              <div class="navtab" data-target="page5">Sports Accessories</div>
+              <div class="navtab" data-target="page6">
+                Gym Wear, Accessories & Equipments
+              </div>
+              <div class="underline"></div>
             </div>
-            <div class="underline"></div>
+            <div class="tab-inside-list">
+              <div id="home" class="content active">
+                <div class="all_sports_list-grid">
+                  <div>
+                    <p>Outdoor Sports</p>
+                    <div class="Outdoor-items">Hiking and Trekking</div>
+                    <div class="Outdoor-items">Camping</div>
+                    <div class="Outdoor-items">Wildlife Watching</div>
+                    <div class="Outdoor-items">Skiing and Snowboarding</div>
+                    <div class="Outdoor-items">
+                      Rock Climbing & Mountaineering
+                    </div>
+                    <div class="Outdoor-items">Fishing</div>
+                    <div class="Outdoor-items">Horse Riding</div>
+                    <div class="Outdoor-items">Kites</div>
+                  </div>
+                  <div>
+                    <p>Fitness Sports & Yoga</p>
+                    <div class="Outdoor-items">Fitness Cardio</div>
+                    <div class="Outdoor-items">
+                      Body Building and Cross Training
+                    </div>
+                    <div class="Outdoor-items">Kids Sports & Gymnastics</div>
+                    <div class="Outdoor-items">Boxing and Martial Arts</div>
+                    <div class="Outdoor-items">Yoga</div>
+                    <div class="Outdoor-items">Installation & Service</div>
+                  </div>
+                  <div>
+                    <p>Water Sports</p>
+                    <div class="Outdoor-items">Swimming</div>
+                    <div class="Outdoor-items">Surfing and Beach Sports</div>
+                    <div class="Outdoor-items">Snorkelling and Diving</div>
+                    <div class="Outdoor-items">
+                      Kayaking and Stand Up Paddle
+                    </div>
+                    <div class="Outdoor-items">Sailing</div>
+                  </div>
+                  <div>
+                    <p>Racket Sports</p>
+                    <div class="Outdoor-items">Badminton</div>
+                    <div class="Outdoor-items">Tennis</div>
+                    <div class="Outdoor-items">Table Tennis</div>
+                    <div class="Outdoor-items">Squash</div>
+                    <div class="Outdoor-items">Padel</div>
+                    <div class="Outdoor-items">Racket Stringing Service</div>
+                  </div>
+                  <div>
+                    <p>Team Sports</p>
+                    <div class="Outdoor-items">Football</div>
+                    <div class="Outdoor-items">Cricket</div>
+                    <div class="Outdoor-items">Basketball</div>
+                    <div class="Outdoor-items">Volleyball</div>
+                    <div class="Outdoor-items">Hockey</div>
+                    <div class="Outdoor-items">Rugby</div>
+                    <div class="Outdoor-items">Baseball</div>
+                  </div>
+                  <div>
+                    <p>Running and Walking</p>
+                    <div class="Outdoor-items">Running</div>
+                    <div class="Outdoor-items">Walking</div>
+                    <div class="Outdoor-items">Triathlon</div>
+                  </div>
+                  <div>
+                    <p>Target Sports</p>
+                    <div class="Outdoor-items">Carrom</div>
+                    <div class="Outdoor-items">Golf</div>
+                    <div class="Outdoor-items">Archery</div>
+                    <div class="Outdoor-items">Darts</div>
+                    <div class="Outdoor-items">Billiards</div>
+                  </div>
+                  <div>
+                    <p>Cycling</p>
+                    <div class="Outdoor-items">Cycling</div>
+                    <div class="Outdoor-items">Cycle Servicing</div>
+                    <div class="Outdoor-items">Skating</div>
+                  </div>
+                  <div>
+                    <p>Skating</p>
+                    <div class="Outdoor-items">Skating</div>
+                    <div class="Outdoor-items">Skateboarding</div>
+                    <div class="Outdoor-items">Scooter</div>
+                  </div>
+                  <div>
+                    <p>Health & Nutrition</p>
+                    <div class="Outdoor-items">Sports Drinks and Hydration</div>
+                    <div class="Outdoor-items">Granola Bar</div>
+                    <div class="Outdoor-items">Shakers and Bottles</div>
+                    <div class="Outdoor-items">Prevention & Recovery</div>
+                    <div class="Outdoor-items">Whey Protein</div>
+                  </div>
+                </div>
+              </div>
+              <div id="about" class="content">
+                <!-- men collection -->
+                <div class="all_sports_list-grid-men">
+                  <div>
+                    <p>Men's Footwear</p>
+                    <div class="Outdoor-items">Men Shoes</div>
+                    <div class="Outdoor-items">Men Sandals</div>
+                    <div class="Outdoor-items">Men Flip Flops & Aqua Shoes</div>
+                    <div class="Outdoor-items">Men Running Shoes</div>
+                    <div class="Outdoor-items">Men Walking Shoes</div>
+                    <div class="Outdoor-items">Men Outdoor Shoes & Boots</div>
+                    <div class="Outdoor-items">Men Non Marking Shoes</div>
+                    <div class="Outdoor-items">Men Football Shoes</div>
+                    <div class="Outdoor-items">Socks</div>
+                    <div class="Outdoor-items">Sports Shoes Under 999</div>
+                  </div>
+                  <div>
+                    <p>Men's Topwear</p>
+                    <div class="Outdoor-items">Men Atleisure T-shirts</div>
+                    <div class="Outdoor-items">Men Cotton T-shirt</div>
+                    <div class="Outdoor-items">Men Polo T-shirts</div>
+                    <div class="Outdoor-items">Men Tank Tops</div>
+                    <div class="Outdoor-items">Men Shirts</div>
+                    <div class="Outdoor-items">Men UV Top & Rash Guards</div>
+                    <div class="Outdoor-items">Men Sweatshirts & Hoodies</div>
+                    <div class="Outdoor-items">Men Fleeces and Pullovers</div>
+                    <div class="Outdoor-items">T-shirts Under 999</div>
+                  </div>
+                  <div>
+                    <p>Men's Jackets & Sweatshirts</p>
+                    <div class="Outdoor-items">Men Raincoat & poncos</div>
+                    <div class="Outdoor-items">Men Sports Jackets</div>
+                    <div class="Outdoor-items">Men Winter Jackets</div>
+                    <div class="Outdoor-items">
+                      Men Waterproof + Warm Jackets
+                    </div>
+                    <div class="Outdoor-items">Men Windcheaters</div>
+                    <div class="Outdoor-items">Jacket's Under 999</div>
+                  </div>
+                  <div>
+                    <p>Team Sports</p>
+                    <div class="Outdoor-items">Football</div>
+                    <div class="Outdoor-items">Cricket</div>
+                    <div class="Outdoor-items">Basketball</div>
+                    <div class="Outdoor-items">Volleyball</div>
+                    <div class="Outdoor-items">Hockey</div>
+                    <div class="Outdoor-items">Rugby</div>
+                    <div class="Outdoor-items">Baseball</div>
+                  </div>
+                  <div>
+                    <p>Men's Bottomwear</p>
+                    <div class="Outdoor-items">Men Shorts</div>
+                    <div class="Outdoor-items">Men Track Pants & Joggers</div>
+                    <div class="Outdoor-items">Men Waterproof Rain Pants</div>
+                    <div class="Outdoor-items">Men Trousers</div>
+                    <div class="Outdoor-items">Men Tights & Compressions</div>
+                    <div class="Outdoor-items">Men Swimsuit</div>
+                    <div class="Outdoor-items">Shorts Under 999</div>
+                    <div class="Outdoor-items">Trackpants Under 999</div>
+                  </div>
+                  <div>
+                    <p>Men's Innerwear</p>
+                    <div class="Outdoor-items">Men Thermal Innerwear</div>
+                    <div class="Outdoor-items">Men Briefs Underwear</div>
+                  </div>
+                </div>
+              </div>
+              <div id="contact" class="content">
+                <!-- women collection -->
+                <div class="all_sports_list-grid-men">
+                  <div>
+                    <p>Women's Footwear</p>
+                    <div class="Outdoor-items">Women Sports Shoes</div>
+                    <div class="Outdoor-items">Women Sandals</div>
+                    <div class="Outdoor-items">Women Running Shoes</div>
+                    <div class="Outdoor-items">Women Walking Shoes</div>
+                    <div class="Outdoor-items">
+                      Women Flip-flops & Aqua Shoes
+                    </div>
+                    <div class="Outdoor-items">Women Non-Marking Shoes</div>
+                    <div class="Outdoor-items">
+                      Women Outdoor Waterproof Boots
+                    </div>
+                    <div class="Outdoor-items">Sports Shoes Under 999</div>
+                    <div class="Outdoor-items">Socks</div>
+                    <div class="Outdoor-items">Insoles</div>
+                  </div>
+                  <div>
+                    <p>Women's Topwear</p>
+                    <div class="Outdoor-items">Women T-Shirts</div>
+                    <div class="Outdoor-items">Women Polo T-Shirt</div>
+                    <div class="Outdoor-items">Women Tank Tops</div>
+                    <div class="Outdoor-items">Women Crop Tops</div>
+                    <div class="Outdoor-items">
+                      Women Sweatshirt And Hoodies
+                    </div>
+                    <div class="Outdoor-items">Women Fleeces And Pullovers</div>
+                    <div class="Outdoor-items">Women Swimsuits And Bikini</div>
+                    <div class="Outdoor-items">Women Raincoats</div>
+                    <div class="Outdoor-items">Women Activewear</div>
+                    <div class="Outdoor-items">Activewear Under 999</div>
+                  </div>
+                  <div>
+                    <p>Men's Jackets & Sweatshirts</p>
+                    <div class="Outdoor-items">Men Raincoat & poncos</div>
+                    <div class="Outdoor-items">Men Sports Jackets</div>
+                    <div class="Outdoor-items">Men Winter Jackets</div>
+                    <div class="Outdoor-items">
+                      Men Waterproof + Warm Jackets
+                    </div>
+                    <div class="Outdoor-items">Men Windcheaters</div>
+                    <div class="Outdoor-items">Jacket's Under 999</div>
+                  </div>
+                  <div>
+                    <p>Women's Jackets</p>
+                    <div class="Outdoor-items">Women Sports Jacket</div>
+                    <div class="Outdoor-items">Women Raincoats</div>
+                    <div class="Outdoor-items">Women Windcheaters</div>
+                    <div class="Outdoor-items">Women Sweaters</div>
+                    <div class="Outdoor-items">Women Winter Jackets</div>
+                    <div class="Outdoor-items">Women Snow Jackets</div>
+                    <div class="Outdoor-items">
+                      Women Padded And Down Jackets
+                    </div>
+                    <div class="Outdoor-items">Jackets Under 999</div>
+                  </div>
+                  <div>
+                    <p>Women's Bottomwear</p>
+                    <div class="Outdoor-items">Women Shorts</div>
+                    <div class="Outdoor-items">Women Leggings</div>
+                    <div class="Outdoor-items">Women Trackpants</div>
+                    <div class="Outdoor-items">Women Trousers</div>
+                    <div class="Outdoor-items">Women Skirts</div>
+                    <div class="Outdoor-items">Shorts Under 999</div>
+                  </div>
+                  <div>
+                    <p>Women's Innerwear</p>
+                    <div class="Outdoor-items">Sports Bras</div>
+                    <div class="Outdoor-items">Women Thermal Innerwear</div>
+                    <div class="Outdoor-items">Sports Bra Under 999</div>
+                  </div>
+                </div>
+              </div>
+              <div id="page4" class="content">
+                <!-- kids collection -->
+                <div class="all_sports_list-grid">
+                  <div>
+                    <p>Kids' Tops</p>
+                    <div class="Outdoor-items">Kids' T-shirts</div>
+                    <div class="Outdoor-items">Kids' Jackets</div>
+                    <div class="Outdoor-items">Kids' Fleeces and Pullovers</div>
+                  </div>
+                  <div>
+                    <p>Kids' Bottoms</p>
+                    <div class="Outdoor-items">Kids' Trousers</div>
+                    <div class="Outdoor-items">Kids' Shorts</div>
+                  </div>
+                  <div>
+                    <p>Kids' Footwear</p>
+                    <div class="Outdoor-items">Kids' Shoes</div>
+                    <div class="Outdoor-items">Kids' Sandals</div>
+                    <div class="Outdoor-items">Kids' Flip Flops</div>
+                    <div class="Outdoor-items">Kids' Socks</div>
+                  </div>
+                  <div>
+                    <p>Kids' Swimwear</p>
+                    <div class="Outdoor-items">Baby Swimwear</div>
+                    <div class="Outdoor-items">Boys Swimsuits</div>
+                    <div class="Outdoor-items">Girls Swimsuits</div>
+                    <div class="Outdoor-items">Aqua Learning Accessories</div>
+                  </div>
+                  <div>
+                    <p>Kids' Cycle</p>
+                    Women's Bottomwear
+                    <div class="Outdoor-items">Below 6 years</div>
+                    <div class="Outdoor-items">6-12 years</div>
+                  </div>
+                  <div>
+                    <p>Kids' Scooters and Skates</p>
+                    <div class="Outdoor-items">Inline Skates</div>
+                    <div class="Outdoor-items">Skating Guards and Helmets</div>
+                    <div class="Outdoor-items">Skateboards</div>
+                    <div class="Outdoor-items">Waveboards</div>
+                    <div class="Outdoor-items">Longboards</div>
+                    <div class="Outdoor-items">Scooters</div>
+                  </div>
+                  <div>
+                    <p>Kids' Cricket</p>
+                    <div class="Outdoor-items">Cricket Kits</div>
+                    <div class="Outdoor-items">Cricket Bats</div>
+                  </div>
+                  <div>
+                    <p>Kids' Innerwear</p>
+                    <div class="Outdoor-items">Kids' Base Layer</div>
+                  </div>
+                  <div>
+                    <p>Activewear</p>
+                    <div class="Outdoor-items">Kids' Activewear</div>
+                  </div>
+                  <div>
+                    <p>Kids' Home Equipment</p>
+                    <div class="Outdoor-items">Kids' Equipment</div>
+                  </div>
+                </div>
+              </div>
+              <div id="page5" class="content">
+                <!-- sports accessories -->
+                <div class="all_sports_list-grid">
+                  <div>
+                    <p>Bags & Backpacks</p>
+                    <div class="Outdoor-items">Sports Bags</div>
+                    <div class="Outdoor-items">Backpacks</div>
+                    <div class="Outdoor-items">Laptop Bags</div>
+                    <div class="Outdoor-items">Workout Bags</div>
+                    <div class="Outdoor-items">Travel & Trekking Rucksacks</div>
+                    <div class="Outdoor-items">Trolley Bags</div>
+                    <div class="Outdoor-items">Duffle Bags</div>
+                    <div class="Outdoor-items">Fanny Bags And Bum Bags</div>
+                    <div class="Outdoor-items">Waterproof Bags</div>
+                    <div class="Outdoor-items">Backpack Rain Covers</div>
+                    <div class="Outdoor-items">Travel Accessories</div>
+                  </div>
+                  <div>
+                    <p>Sports & Training Accessories</p>
+                    <div class="Outdoor-items">Gym Accessories</div>
+                    <div class="Outdoor-items">Cycling Accessories</div>
+                    <div class="Outdoor-items">Backpacking Accessories</div>
+                    <div class="Outdoor-items">
+                      Running & Jogging Accessories
+                    </div>
+                    <div class="Outdoor-items">Badminton Accessories</div>
+                    <div class="Outdoor-items">Swimming Accessories</div>
+                    <div class="Outdoor-items">Skating Guards and Helmets</div>
+                    <div class="Outdoor-items">Archery Bow And Arrow</div>
+                    <div class="Outdoor-items">Darts And Dart Boards</div>
+                    <div class="Outdoor-items">
+                      Carrom Boards And Accessories
+                    </div>
+                    <div class="Outdoor-items">Cones and Ladder</div>
+                    <div class="Outdoor-items">Nutrition's and Supplements</div>
+                  </div>
+                  <div>
+                    <p>Outdoor Camping Accessories</p>
+                    <div class="Outdoor-items">Camping Tents</div>
+                    <div class="Outdoor-items">Camping Furnitures</div>
+                    <div class="Outdoor-items">Sleeping Bags</div>
+                    <div class="Outdoor-items">Binoculars & Flashlights</div>
+                    <div class="Outdoor-items">Knifes</div>
+                  </div>
+                  <div>
+                    <p>Supports and Massagers</p>
+                    <div class="Outdoor-items">Massagers and Foam Rollers</div>
+                    <div class="Outdoor-items">Gym balls and Pilates</div>
+                    <div class="Outdoor-items">Supports & Braces</div>
+                    <div class="Outdoor-items">Knee Supports</div>
+                    <div class="Outdoor-items">Ankle Supports</div>
+                    <div class="Outdoor-items">Back Supports</div>
+                    <div class="Outdoor-items">Wrist Supports</div>
+                    <div class="Outdoor-items">Shoulder Supports</div>
+                    <div class="Outdoor-items">Elbow Supports</div>
+                    <div class="Outdoor-items">Calf Supports</div>
+                  </div>
+                  <div>
+                    <p>Hydration & Nutrition</p>
+                    <div class="Outdoor-items">Isotonic drinks</div>
+                    <div class="Outdoor-items">Shakers</div>
+                    <div class="Outdoor-items">Supplements</div>
+                  </div>
+                </div>
+              </div>
+              <div id="page6" class="content">
+                <!-- Gym Wear, Accessories & Equipments -->
+                <div class="all_sports_list-grid">
+                  <div>
+                    <p>Outdoor And Camping Equipment</p>
+                    <div class="Outdoor-items">Camping Chairs And Bed</div>
+                    <div class="Outdoor-items">Sleeping Bags</div>
+                    <div class="Outdoor-items">Waterproof Trekking Boots</div>
+                    <div class="Outdoor-items">Ski Equipment</div>
+                    <div class="Outdoor-items">Rock Climbing Equipment</div>
+                    <div class="Outdoor-items">Binoculars And Flashlights</div>
+                  </div>
+                  <div>
+                    <p>Home Gym Equipment</p>
+                    <div class="Outdoor-items">Weights, Dumbbells & Bars</div>
+                    <div class="Outdoor-items">Home Gym</div>
+                    <div class="Outdoor-items">Gym Bench</div>
+                    <div class="Outdoor-items">Gym Squat Rack</div>
+                    <div class="Outdoor-items">Treadmills</div>
+                    <div class="Outdoor-items">Exercise Bike</div>
+                    <div class="Outdoor-items">Elliptical Cross Trainer</div>
+                    <div class="Outdoor-items">Rowers</div>
+                    <div class="Outdoor-items">Trampoline</div>
+                    <div class="Outdoor-items">Punching Bags</div>
+                    <div class="Outdoor-items">Step and Steppers</div>
+                  </div>
+                  <div>
+                    <p>Racket Sports And Accessories</p>
+                    <div class="Outdoor-items">Badminton Rackets</div>
+                    <div class="Outdoor-items">Badminton Shuttles</div>
+                    <div class="Outdoor-items">Badminton Net</div>
+                    <div class="Outdoor-items">Badminton Racket Strings</div>
+                    <div class="Outdoor-items">Badminton Racket Grips</div>
+                    <div class="Outdoor-items">Tennis Rackets</div>
+                    <div class="Outdoor-items">Tennis Balls</div>
+                    <div class="Outdoor-items">Tennis Racket Grips</div>
+                    <div class="Outdoor-items">TT Bats, Balls And Tables</div>
+                  </div>
+                  <div>
+                    <p>Team Sports Essentials</p>
+                    <div class="Outdoor-items">Footballs</div>
+                    <div class="Outdoor-items">
+                      Football Training Accessories
+                    </div>
+                    <div class="Outdoor-items">Basketball</div>
+                    <div class="Outdoor-items">Basketball Hoops</div>
+                    <div class="Outdoor-items">
+                      Standing Basketball Backboard
+                    </div>
+                    <div class="Outdoor-items">
+                      Tennis Cricket Bats And Balls
+                    </div>
+                    <div class="Outdoor-items">
+                      Leather Cricket Bats And Balls
+                    </div>
+                    <div class="Outdoor-items">Cricket Protection And Kits</div>
+                    <div class="Outdoor-items">Volleyball</div>
+                  </div>
+                  <div>
+                    <p>Leisure Sport Equipment</p>
+                    <div class="Outdoor-items">Darts</div>
+                    <div class="Outdoor-items">Skating</div>
+                    <div class="Outdoor-items">Cycling</div>
+                    <div class="Outdoor-items">Fishing</div>
+                    <div class="Outdoor-items">Billiards</div>
+                    <div class="Outdoor-items">Carrom</div>
+                    <div class="Outdoor-items">Archery</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="tab-inside-list">
-            <div id="home" class="content active">
-              <div class="all_sports_list-grid">
-                <div>
-                  <p>Outdoor Sports</p>
-                  <div class="Outdoor-items">Hiking and Trekking</div>
-                  <div class="Outdoor-items">Camping</div>
-                  <div class="Outdoor-items">Wildlife Watching</div>
-                  <div class="Outdoor-items">Skiing and Snowboarding</div>
-                  <div class="Outdoor-items">
-                    Rock Climbing & Mountaineering
-                  </div>
-                  <div class="Outdoor-items">Fishing</div>
-                  <div class="Outdoor-items">Horse Riding</div>
-                  <div class="Outdoor-items">Kites</div>
-                </div>
-                <div>
-                  <p>Fitness Sports & Yoga</p>
-                  <div class="Outdoor-items">Fitness Cardio</div>
-                  <div class="Outdoor-items">
-                    Body Building and Cross Training
-                  </div>
-                  <div class="Outdoor-items">Kids Sports & Gymnastics</div>
-                  <div class="Outdoor-items">Boxing and Martial Arts</div>
-                  <div class="Outdoor-items">Yoga</div>
-                  <div class="Outdoor-items">Installation & Service</div>
-                </div>
-                <div>
-                  <p>Water Sports</p>
-                  <div class="Outdoor-items">Swimming</div>
-                  <div class="Outdoor-items">Surfing and Beach Sports</div>
-                  <div class="Outdoor-items">Snorkelling and Diving</div>
-                  <div class="Outdoor-items">Kayaking and Stand Up Paddle</div>
-                  <div class="Outdoor-items">Sailing</div>
-                </div>
-                <div>
-                  <p>Racket Sports</p>
-                  <div class="Outdoor-items">Badminton</div>
-                  <div class="Outdoor-items">Tennis</div>
-                  <div class="Outdoor-items">Table Tennis</div>
-                  <div class="Outdoor-items">Squash</div>
-                  <div class="Outdoor-items">Padel</div>
-                  <div class="Outdoor-items">Racket Stringing Service</div>
-                </div>
-                <div>
-                  <p>Team Sports</p>
-                  <div class="Outdoor-items">Football</div>
-                  <div class="Outdoor-items">Cricket</div>
-                  <div class="Outdoor-items">Basketball</div>
-                  <div class="Outdoor-items">Volleyball</div>
-                  <div class="Outdoor-items">Hockey</div>
-                  <div class="Outdoor-items">Rugby</div>
-                  <div class="Outdoor-items">Baseball</div>
-                </div>
-                <div>
-                  <p>Running and Walking</p>
-                  <div class="Outdoor-items">Running</div>
-                  <div class="Outdoor-items">Walking</div>
-                  <div class="Outdoor-items">Triathlon</div>
-                </div>
-                <div>
-                  <p>Target Sports</p>
-                  <div class="Outdoor-items">Carrom</div>
-                  <div class="Outdoor-items">Golf</div>
-                  <div class="Outdoor-items">Archery</div>
-                  <div class="Outdoor-items">Darts</div>
-                  <div class="Outdoor-items">Billiards</div>
-                </div>
-                <div>
-                  <p>Cycling</p>
-                  <div class="Outdoor-items">Cycling</div>
-                  <div class="Outdoor-items">Cycle Servicing</div>
-                  <div class="Outdoor-items">Skating</div>
-                </div>
-                <div>
-                  <p>Skating</p>
-                  <div class="Outdoor-items">Skating</div>
-                  <div class="Outdoor-items">Skateboarding</div>
-                  <div class="Outdoor-items">Scooter</div>
-                </div>
-                <div>
-                  <p>Health & Nutrition</p>
-                  <div class="Outdoor-items">Sports Drinks and Hydration</div>
-                  <div class="Outdoor-items">Granola Bar</div>
-                  <div class="Outdoor-items">Shakers and Bottles</div>
-                  <div class="Outdoor-items">Prevention & Recovery</div>
-                  <div class="Outdoor-items">Whey Protein</div>
-                </div>
-              </div>
-            </div>
-            <div id="about" class="content">
-              <!-- men collection -->
-              <div class="all_sports_list-grid-men">
-                <div>
-                  <p>Men's Footwear</p>
-                  <div class="Outdoor-items">Men Shoes</div>
-                  <div class="Outdoor-items">Men Sandals</div>
-                  <div class="Outdoor-items">Men Flip Flops & Aqua Shoes</div>
-                  <div class="Outdoor-items">Men Running Shoes</div>
-                  <div class="Outdoor-items">Men Walking Shoes</div>
-                  <div class="Outdoor-items">Men Outdoor Shoes & Boots</div>
-                  <div class="Outdoor-items">Men Non Marking Shoes</div>
-                  <div class="Outdoor-items">Men Football Shoes</div>
-                  <div class="Outdoor-items">Socks</div>
-                  <div class="Outdoor-items">Sports Shoes Under 999</div>
-                </div>
-                <div>
-                  <p>Men's Topwear</p>
-                  <div class="Outdoor-items">Men Atleisure T-shirts</div>
-                  <div class="Outdoor-items">Men Cotton T-shirt</div>
-                  <div class="Outdoor-items">Men Polo T-shirts</div>
-                  <div class="Outdoor-items">Men Tank Tops</div>
-                  <div class="Outdoor-items">Men Shirts</div>
-                  <div class="Outdoor-items">Men UV Top & Rash Guards</div>
-                  <div class="Outdoor-items">Men Sweatshirts & Hoodies</div>
-                  <div class="Outdoor-items">Men Fleeces and Pullovers</div>
-                  <div class="Outdoor-items">T-shirts Under 999</div>
-                </div>
-                <div>
-                  <p>Men's Jackets & Sweatshirts</p>
-                  <div class="Outdoor-items">Men Raincoat & poncos</div>
-                  <div class="Outdoor-items">Men Sports Jackets</div>
-                  <div class="Outdoor-items">Men Winter Jackets</div>
-                  <div class="Outdoor-items">Men Waterproof + Warm Jackets</div>
-                  <div class="Outdoor-items">Men Windcheaters</div>
-                  <div class="Outdoor-items">Jacket's Under 999</div>
-                </div>
-                <div>
-                  <p>Team Sports</p>
-                  <div class="Outdoor-items">Football</div>
-                  <div class="Outdoor-items">Cricket</div>
-                  <div class="Outdoor-items">Basketball</div>
-                  <div class="Outdoor-items">Volleyball</div>
-                  <div class="Outdoor-items">Hockey</div>
-                  <div class="Outdoor-items">Rugby</div>
-                  <div class="Outdoor-items">Baseball</div>
-                </div>
-                <div>
-                  <p>Men's Bottomwear</p>
-                  <div class="Outdoor-items">Men Shorts</div>
-                  <div class="Outdoor-items">Men Track Pants & Joggers</div>
-                  <div class="Outdoor-items">Men Waterproof Rain Pants</div>
-                  <div class="Outdoor-items">Men Trousers</div>
-                  <div class="Outdoor-items">Men Tights & Compressions</div>
-                  <div class="Outdoor-items">Men Swimsuit</div>
-                  <div class="Outdoor-items">Shorts Under 999</div>
-                  <div class="Outdoor-items">Trackpants Under 999</div>
-                </div>
-                <div>
-                  <p>Men's Innerwear</p>
-                  <div class="Outdoor-items">Men Thermal Innerwear</div>
-                  <div class="Outdoor-items">Men Briefs Underwear</div>
-                </div>
-              </div>
-            </div>
-            <div id="contact" class="content">
-              <!-- women collection -->
-              <div class="all_sports_list-grid-men">
-                <div>
-                  <p>Women's Footwear</p>
-                  <div class="Outdoor-items">Women Sports Shoes</div>
-                  <div class="Outdoor-items">Women Sandals</div>
-                  <div class="Outdoor-items">Women Running Shoes</div>
-                  <div class="Outdoor-items">Women Walking Shoes</div>
-                  <div class="Outdoor-items">Women Flip-flops & Aqua Shoes</div>
-                  <div class="Outdoor-items">Women Non-Marking Shoes</div>
-                  <div class="Outdoor-items">
-                    Women Outdoor Waterproof Boots
-                  </div>
-                  <div class="Outdoor-items">Sports Shoes Under 999</div>
-                  <div class="Outdoor-items">Socks</div>
-                  <div class="Outdoor-items">Insoles</div>
-                </div>
-                <div>
-                  <p>Women's Topwear</p>
-                  <div class="Outdoor-items">Women T-Shirts</div>
-                  <div class="Outdoor-items">Women Polo T-Shirt</div>
-                  <div class="Outdoor-items">Women Tank Tops</div>
-                  <div class="Outdoor-items">Women Crop Tops</div>
-                  <div class="Outdoor-items">Women Sweatshirt And Hoodies</div>
-                  <div class="Outdoor-items">Women Fleeces And Pullovers</div>
-                  <div class="Outdoor-items">Women Swimsuits And Bikini</div>
-                  <div class="Outdoor-items">Women Raincoats</div>
-                  <div class="Outdoor-items">Women Activewear</div>
-                  <div class="Outdoor-items">Activewear Under 999</div>
-                </div>
-                <div>
-                  <p>Men's Jackets & Sweatshirts</p>
-                  <div class="Outdoor-items">Men Raincoat & poncos</div>
-                  <div class="Outdoor-items">Men Sports Jackets</div>
-                  <div class="Outdoor-items">Men Winter Jackets</div>
-                  <div class="Outdoor-items">Men Waterproof + Warm Jackets</div>
-                  <div class="Outdoor-items">Men Windcheaters</div>
-                  <div class="Outdoor-items">Jacket's Under 999</div>
-                </div>
-                <div>
-                  <p>Women's Jackets</p>
-                  <div class="Outdoor-items">Women Sports Jacket</div>
-                  <div class="Outdoor-items">Women Raincoats</div>
-                  <div class="Outdoor-items">Women Windcheaters</div>
-                  <div class="Outdoor-items">Women Sweaters</div>
-                  <div class="Outdoor-items">Women Winter Jackets</div>
-                  <div class="Outdoor-items">Women Snow Jackets</div>
-                  <div class="Outdoor-items">Women Padded And Down Jackets</div>
-                  <div class="Outdoor-items">Jackets Under 999</div>
-                </div>
-                <div>
-                  <p>Women's Bottomwear</p>
-                  <div class="Outdoor-items">Women Shorts</div>
-                  <div class="Outdoor-items">Women Leggings</div>
-                  <div class="Outdoor-items">Women Trackpants</div>
-                  <div class="Outdoor-items">Women Trousers</div>
-                  <div class="Outdoor-items">Women Skirts</div>
-                  <div class="Outdoor-items">Shorts Under 999</div>
-                </div>
-                <div>
-                  <p>Women's Innerwear</p>
-                  <div class="Outdoor-items">Sports Bras</div>
-                  <div class="Outdoor-items">Women Thermal Innerwear</div>
-                  <div class="Outdoor-items">Sports Bra Under 999</div>
-                </div>
-              </div>
-            </div>
-            <div id="page4" class="content">
-              <!-- kids collection -->
-              <div class="all_sports_list-grid">
-                <div>
-                  <p>Kids' Tops</p>
-                  <div class="Outdoor-items">Kids' T-shirts</div>
-                  <div class="Outdoor-items">Kids' Jackets</div>
-                  <div class="Outdoor-items">Kids' Fleeces and Pullovers</div>
-                </div>
-                <div>
-                  <p>Kids' Bottoms</p>
-                  <div class="Outdoor-items">Kids' Trousers</div>
-                  <div class="Outdoor-items">Kids' Shorts</div>
-                </div>
-                <div>
-                  <p>Kids' Footwear</p>
-                  <div class="Outdoor-items">Kids' Shoes</div>
-                  <div class="Outdoor-items">Kids' Sandals</div>
-                  <div class="Outdoor-items">Kids' Flip Flops</div>
-                  <div class="Outdoor-items">Kids' Socks</div>
-                </div>
-                <div>
-                  <p>Kids' Swimwear</p>
-                  <div class="Outdoor-items">Baby Swimwear</div>
-                  <div class="Outdoor-items">Boys Swimsuits</div>
-                  <div class="Outdoor-items">Girls Swimsuits</div>
-                  <div class="Outdoor-items">Aqua Learning Accessories</div>
-                </div>
-                <div>
-                  <p>Kids' Cycle</p>
-                  Women's Bottomwear
-                  <div class="Outdoor-items">Below 6 years</div>
-                  <div class="Outdoor-items">6-12 years</div>
-                </div>
-                <div>
-                  <p>Kids' Scooters and Skates</p>
-                  <div class="Outdoor-items">Inline Skates</div>
-                  <div class="Outdoor-items">Skating Guards and Helmets</div>
-                  <div class="Outdoor-items">Skateboards</div>
-                  <div class="Outdoor-items">Waveboards</div>
-                  <div class="Outdoor-items">Longboards</div>
-                  <div class="Outdoor-items">Scooters</div>
-                </div>
-                <div>
-                  <p>Kids' Cricket</p>
-                  <div class="Outdoor-items">Cricket Kits</div>
-                  <div class="Outdoor-items">Cricket Bats</div>
-                </div>
-                <div>
-                  <p>Kids' Innerwear</p>
-                  <div class="Outdoor-items">Kids' Base Layer</div>
-                </div>
-                <div>
-                  <p>Activewear</p>
-                  <div class="Outdoor-items">Kids' Activewear</div>
-                </div>
-                <div>
-                  <p>Kids' Home Equipment</p>
-                  <div class="Outdoor-items">Kids' Equipment</div>
-                </div>
-              </div>
-            </div>
-            <div id="page5" class="content">
-              <!-- sports accessories -->
-              <div class="all_sports_list-grid">
-                <div>
-                  <p>Bags & Backpacks</p>
-                  <div class="Outdoor-items">Sports Bags</div>
-                  <div class="Outdoor-items">Backpacks</div>
-                  <div class="Outdoor-items">Laptop Bags</div>
-                  <div class="Outdoor-items">Workout Bags</div>
-                  <div class="Outdoor-items">Travel & Trekking Rucksacks</div>
-                  <div class="Outdoor-items">Trolley Bags</div>
-                  <div class="Outdoor-items">Duffle Bags</div>
-                  <div class="Outdoor-items">Fanny Bags And Bum Bags</div>
-                  <div class="Outdoor-items">Waterproof Bags</div>
-                  <div class="Outdoor-items">Backpack Rain Covers</div>
-                  <div class="Outdoor-items">Travel Accessories</div>
-                </div>
-                <div>
-                  <p>Sports & Training Accessories</p>
-                  <div class="Outdoor-items">Gym Accessories</div>
-                  <div class="Outdoor-items">Cycling Accessories</div>
-                  <div class="Outdoor-items">Backpacking Accessories</div>
-                  <div class="Outdoor-items">Running & Jogging Accessories</div>
-                  <div class="Outdoor-items">Badminton Accessories</div>
-                  <div class="Outdoor-items">Swimming Accessories</div>
-                  <div class="Outdoor-items">Skating Guards and Helmets</div>
-                  <div class="Outdoor-items">Archery Bow And Arrow</div>
-                  <div class="Outdoor-items">Darts And Dart Boards</div>
-                  <div class="Outdoor-items">Carrom Boards And Accessories</div>
-                  <div class="Outdoor-items">Cones and Ladder</div>
-                  <div class="Outdoor-items">Nutrition's and Supplements</div>
-                </div>
-                <div>
-                  <p>Outdoor Camping Accessories</p>
-                  <div class="Outdoor-items">Camping Tents</div>
-                  <div class="Outdoor-items">Camping Furnitures</div>
-                  <div class="Outdoor-items">Sleeping Bags</div>
-                  <div class="Outdoor-items">Binoculars & Flashlights</div>
-                  <div class="Outdoor-items">Knifes</div>
-                </div>
-                <div>
-                  <p>Supports and Massagers</p>
-                  <div class="Outdoor-items">Massagers and Foam Rollers</div>
-                  <div class="Outdoor-items">Gym balls and Pilates</div>
-                  <div class="Outdoor-items">Supports & Braces</div>
-                  <div class="Outdoor-items">Knee Supports</div>
-                  <div class="Outdoor-items">Ankle Supports</div>
-                  <div class="Outdoor-items">Back Supports</div>
-                  <div class="Outdoor-items">Wrist Supports</div>
-                  <div class="Outdoor-items">Shoulder Supports</div>
-                  <div class="Outdoor-items">Elbow Supports</div>
-                  <div class="Outdoor-items">Calf Supports</div>
-                </div>
-                <div>
-                  <p>Hydration & Nutrition</p>
-                  <div class="Outdoor-items">Isotonic drinks</div>
-                  <div class="Outdoor-items">Shakers</div>
-                  <div class="Outdoor-items">Supplements</div>
-                </div>
-              </div>
-            </div>
-            <div id="page6" class="content">
-              <!-- Gym Wear, Accessories & Equipments -->
-              <div class="all_sports_list-grid">
-                <div>
-                  <p>Outdoor And Camping Equipment</p>
-                  <div class="Outdoor-items">Camping Chairs And Bed</div>
-                  <div class="Outdoor-items">Sleeping Bags</div>
-                  <div class="Outdoor-items">Waterproof Trekking Boots</div>
-                  <div class="Outdoor-items">Ski Equipment</div>
-                  <div class="Outdoor-items">Rock Climbing Equipment</div>
-                  <div class="Outdoor-items">Binoculars And Flashlights</div>
-                </div>
-                <div>
-                  <p>Home Gym Equipment</p>
-                  <div class="Outdoor-items">Weights, Dumbbells & Bars</div>
-                  <div class="Outdoor-items">Home Gym</div>
-                  <div class="Outdoor-items">Gym Bench</div>
-                  <div class="Outdoor-items">Gym Squat Rack</div>
-                  <div class="Outdoor-items">Treadmills</div>
-                  <div class="Outdoor-items">Exercise Bike</div>
-                  <div class="Outdoor-items">Elliptical Cross Trainer</div>
-                  <div class="Outdoor-items">Rowers</div>
-                  <div class="Outdoor-items">Trampoline</div>
-                  <div class="Outdoor-items">Punching Bags</div>
-                  <div class="Outdoor-items">Step and Steppers</div>
-                </div>
-                <div>
-                  <p>Racket Sports And Accessories</p>
-                  <div class="Outdoor-items">Badminton Rackets</div>
-                  <div class="Outdoor-items">Badminton Shuttles</div>
-                  <div class="Outdoor-items">Badminton Net</div>
-                  <div class="Outdoor-items">Badminton Racket Strings</div>
-                  <div class="Outdoor-items">Badminton Racket Grips</div>
-                  <div class="Outdoor-items">Tennis Rackets</div>
-                  <div class="Outdoor-items">Tennis Balls</div>
-                  <div class="Outdoor-items">Tennis Racket Grips</div>
-                  <div class="Outdoor-items">TT Bats, Balls And Tables</div>
-                </div>
-                <div>
-                  <p>Team Sports Essentials</p>
-                  <div class="Outdoor-items">Footballs</div>
-                  <div class="Outdoor-items">Football Training Accessories</div>
-                  <div class="Outdoor-items">Basketball</div>
-                  <div class="Outdoor-items">Basketball Hoops</div>
-                  <div class="Outdoor-items">Standing Basketball Backboard</div>
-                  <div class="Outdoor-items">Tennis Cricket Bats And Balls</div>
-                  <div class="Outdoor-items">
-                    Leather Cricket Bats And Balls
-                  </div>
-                  <div class="Outdoor-items">Cricket Protection And Kits</div>
-                  <div class="Outdoor-items">Volleyball</div>
-                </div>
-                <div>
-                  <p>Leisure Sport Equipment</p>
-                  <div class="Outdoor-items">Darts</div>
-                  <div class="Outdoor-items">Skating</div>
-                  <div class="Outdoor-items">Cycling</div>
-                  <div class="Outdoor-items">Fishing</div>
-                  <div class="Outdoor-items">Billiards</div>
-                  <div class="Outdoor-items">Carrom</div>
-                  <div class="Outdoor-items">Archery</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="nav-quick-link">
-          <img src="./images/posters/app-download-post.jpg" alt="" srcset="" />
-          <div class="nav-quick-link-text">
-            <button>DOWNLOAD NOW</button>
-            <div class="nav-quick-links-items">
-              <a href="#">Clearance</a> <span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Best Sellers of Decathlon </a><span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Assisted Shopping - Free Expert Advice </a
-              ><span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Decathlon Blog </a><span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Made In India</a> <span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Online Events </a><span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Support </a><span>⟶</span>
-            </div>
-            <div class="nav-quick-links-items">
-              <a href="#">Happy Customer Milestones </a><span>⟶</span>
+          <div class="nav-quick-link">
+            <img
+              src="./images/posters/app-download-post.jpg"
+              alt=""
+              srcset=""
+            />
+            <div class="nav-quick-link-text">
+              <button>DOWNLOAD NOW</button>
+              <div class="nav-quick-links-items">
+                <a href="#">Clearance</a> <span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Best Sellers of Decathlon </a><span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Assisted Shopping - Free Expert Advice </a
+                ><span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Decathlon Blog </a><span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Made In India</a> <span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Online Events </a><span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Support </a><span>⟶</span>
+              </div>
+              <div class="nav-quick-links-items">
+                <a href="#">Happy Customer Milestones </a><span>⟶</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
     <!-- navigation menu list  end-->
     <!-- navigation  end -->
 
     <!-- main content start -->
     <!-- offer update  -->
-    <div class="offer-update_event_label">
-      <p>Enjoy ₹200/- Off on your first purchase.T&C apply</p>
-    </div>
+    <div class="offer-update_event_label-container"></div>
+      <div class="offer-update_event_label">
+        <p>Enjoy ₹200/- Off on your first purchase.T&C apply</p>
+      </div>
+    
+
     <!-- offer update end  -->
     <div class="catagories-home_page_grid">
       <div>
@@ -909,11 +939,11 @@
         </div>
       </div>
     </div>
-<!-- ================================ -->
+    <!-- ================================ -->
     <div class="banner_cover_image_static">
       <img src="./images/cover/h2.avif" alt="" srcset="" />
     </div>
 
-    <script src="./js/home-script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
