@@ -8,17 +8,20 @@ Welcome to the **Leora tasks** repository! This repository showcases a collectio
 
 Below is a list of the projects included in this repository, along with their live hosting links:
 
-### 3. Project Three: Sample E-commerce Website
-- **Description**: A sample e-commerce website with basic functionality, including product listings and a shopping cart.
+### 3. Project Three: Decathlon Retailer Website - Clone
+- **Description**: A clone [Decathlon official ](https://www.decathlon.in/)  website with more functionality, including product listings, and a shopping cart. 
 - **Live Link**: [View Project Three](https://example.com/project-three)
+- **Repo**: [decathlon-clone](/decathlon-clone/)
 
 ### 2. Project Two: Clone Website
-- **Description**: A clone of a popular website, showcasing more advanced HTML, CSS, and JavaScript techniques.
+- **Description**: A clone of a company-profile design website, using HTML, CSS techniques.
 - **Live Link**: [View Project Two](https://example.com/project-two)
+- **Repo**: [company-profile](/company-profile/)
 
 ### 1. Project One: Sample Website
 - **Description**: A simple sample website demonstrating basic HTML, CSS.
 - **Live Link**: [View Project One](https://example.com/project-one)
+- **Repo**: [blog-events](/blog-events/)
 
 ## How to View and Use
 
