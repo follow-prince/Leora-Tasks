@@ -6,21 +6,24 @@ Welcome to the **Leora tasks** repository! This repository showcases a collectio
 
 ## Projects Overview 📊
 
+### All project repository
+**Link : [task.elavarasan.me](https://task.elavarasan.me/)**
+
 Below is a list of the projects included in this repository, along with their live hosting links:
 
 ### 3. Project Three: Decathlon Retailer Website - Clone 🛒
 - **Description**: A clone of the [Decathlon official website](https://www.decathlon.in/) with more functionality, including product listings and a shopping cart. 
-- **Live Link**: [View Project Three](https://example.com/project-three)
+- **Live Link**: [View Project Three](https://follow-prince.github.io/Leora-Tasks/decathlon-clone/)
 - **Repo**: [decathlon-clone](/decathlon-clone/)
 
 ### 2. Project Two: Clone Website 🌐
 - **Description**: A clone of a company-profile design website, using HTML, CSS techniques.
-- **Live Link**: [View Project Two](https://example.com/project-two)
+- **Live Link**: [View Project Two](https://follow-prince.github.io/Leora-Tasks/company-profile/)
 - **Repo**: [company-profile](/company-profile/)
 
 ### 1. Project One: Sample Website 🖥️
 - **Description**: A simple sample website demonstrating basic HTML, CSS.
-- **Live Link**: [View Project One](https://example.com/project-one)
+- **Live Link**: [View Project One](https://follow-prince.github.io/Leora-Tasks/blog-events/)
 - **Repo**: [blog-events](/blog-events/)
 
 ## How to View and Use 🛠️

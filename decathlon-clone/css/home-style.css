@@ -1,9 +1,8 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
 }
 
 /* ==============navigation  decathlon start=============================== */
@@ -121,7 +120,6 @@ body {
   grid-template-rows: repeat(2, 60%);
   grid-template-columns: repeat(5, 17%);
   grid-gap: 20px;
-
 }
 .all_sports_list-grid p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -137,7 +135,6 @@ body {
   grid-template-columns: repeat(4, 250px);
   grid-gap: 10px;
   grid-auto-rows: 100px 200px;
-
 }
 .all_sports_list-grid-men p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -158,60 +155,58 @@ body {
 }
 .all_list_elements-grid {
   display: none;
-    justify-content: space-between;
-
+  justify-content: space-between;
 }
 .all_list_elements-grid img {
-    width: 400px;
-    justify-self: end;    
+  width: 400px;
+  justify-self: end;
 }
 .nav-quick-link-text button {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 900;
-    color: white;
-    background-color: #3643ba;
-    border: none;
-    width: 100%;
-    height: 40px;
-    
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  background-color: #3643ba;
+  border: none;
+  width: 100%;
+  height: 40px;
 }
 .nav-quick-link-text button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-quick-link-text button:active {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 .nav-quick-link-text button:focus {
-    outline: none;
+  outline: none;
 }
 
 /* ____________menu bar button (end)_____________ */
 .nav-quick-links-items {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
 }
-.nav-quick-links-items a{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #000;
+.nav-quick-links-items a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
 }
 .nav-quick-links-items span {
-    text-align: end;
+  text-align: end;
 }
 .nav-quick-links-items:hover {
-    color: #3643ba;
+  color: #3643ba;
 }
 .nav-quick-links-items :active {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 .nav-quick-links-items :focus {
-    outline: none;
+  outline: none;
 }
 /* ____________menu bar button (start)_____________ */
 
@@ -400,32 +395,373 @@ body {
 
 /* ==============home page start=============================== */
 .offer-update_event_label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3643ba;
-    height: 40px;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3643ba;
+  height: 40px;
+  width: 100%;
 }
 .offer-update_event_label p {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 900;
-    color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
 }
 .offer-update_event_label p:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .offer-update_event_label p:active {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 .offer-update_event_label p:focus {
-    outline: none;
+  outline: none;
 }
 
 /* ================catagories-home_page_grid=============================== */
 .catagories-home_page_grid {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
 }
+.catagories-home_page_grid img {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+}
+.catagories-home_page_grid p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4e5d6b;
+  text-align: center;
+  width: 100px;
+}
+/* ==================================== */
+.carousel-home1 {
+  position: relative;
+}
+
+.carousel-home1-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-home1-open:checked + .carousel-home1-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-home1-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-home1-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-home1-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-home1-control.prev {
+  left: 2%;
+}
+
+.carousel-home1-control.next {
+  right: 2%;
+}
+
+.carousel-home1-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-home1-1:checked ~ .control-1,
+#carousel-home1-2:checked ~ .control-2,
+#carousel-home1-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-home1-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-home1-indicators li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.carousel-home1-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+}
+
+.carousel-home1-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-home1-1:checked
+  ~ .control-1
+  ~ .carousel-home1-indicators
+  li:nth-child(1)
+  .carousel-home1-bullet,
+#carousel-home1-2:checked
+  ~ .control-2
+  ~ .carousel-home1-indicators
+  li:nth-child(2)
+  .carousel-home1-bullet,
+#carousel-home1-3:checked
+  ~ .control-3
+  ~ .carousel-home1-indicators
+  li:nth-child(3)
+  .carousel-home1-bullet {
+  color: #428bca;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Open Sans", sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33),
+    -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/* ==============carousel image side move =============================== */
+
+.policy_label_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f4f5;
+  width: 100%;
+  height: 50px;
+}
+.policy_label_container_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.policy_label_container img {
+  width: 30px;
+  height: 30px;
+}
+.policy_label_container_item span {
+  text-align: center;
+  color: #3643ba;
+}
+.policy_label_container_item span:hover {
+  cursor: pointer;
+}
+.policy_label_container_item span:active {
+  transform: scale(0.9);
+}
+.policy_label_container_item span:focus {
+  outline: none;
+}
+/* ==============carousel image side move =============================== */
+
+/* ==============Bestsellers_in_categories=============================== */
+
+.bestsellers_in_categories h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #4e5d6b;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* ================Bestsellers_in_categories end======================= */
+
+/* ==============banner_cover_image_static=============================== */
+
+.banner_cover_image_static {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.banner_cover_image_static img {
+  width: 100%;
+  height: 100%;
+}
+/* ==============banner_cover_image_static=============================== */
+/* ==============outdoor_essentials=============================== */
+.outdoor_essentials h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #4e5d6b;
+  padding-top: 10px;
+  padding-left: 10%;
+}
+.outdoor_essentials_card {
+  display: flex;
+  margin-left: 8%;
+  margin-right: 8%;
+  justify-content: space-around;
+}
+.outdoor_essentials_card img {
+  width: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* =========================================== */
+
+.caroseal_home2 {
+  position: relative;
+}
+
+.caroseal_home2-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.caroseal_home2-open:checked + .caroseal_home2-item {
+  position: static;
+  opacity: 100;
+}
+
+.caroseal_home2-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.caroseal_home2-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.caroseal_home2-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.caroseal_home2-control.prev2 {
+  left: 2%;
+}
+
+.caroseal_home2-control.next2 {
+  right: 2%;
+}
+
+.caroseal_home2-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#caroseal_home2-1:checked ~ .control-1-2,
+#caroseal_home2-2:checked ~ .control-2-2,
+#caroseal_home2-3:checked ~ .control-3-2 {
+  display: block;
+}
+
+.caroseal_home2-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.caroseal_home2-indicators li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.caroseal_home2-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+}
+
+.caroseal_home2-bullet:hover {
+  color: #aaaaaa;
+}
+
+#caroseal_home2-1:checked
+  ~ .control-1-2
+  ~ .caroseal_home2-indicators
+  li:nth-child(1)
+  .caroseal_home2-bullet,
+#caroseal_home2-2:checked
+  ~ .control-2-2
+  ~ .caroseal_home2-indicators
+  li:nth-child(2)
+  .caroseal_home2-bullet,
+#caroseal_home2-3:checked
+  ~ .control-3-2
+  ~ .caroseal_home2-indicators
+  li:nth-child(3)
+  .caroseal_home2-bullet {
+  color: #428bca;
+}
+/* ========================================= */
