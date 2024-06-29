@@ -1,29 +1,29 @@
-# Leora Tasks Projects
+# Leora Tasks Projects 🚀📂
 
 Welcome to the **Leora tasks** repository! This repository showcases a collection of sample websites and clone websites created as part of Leora's training program. Each project is hosted online, allowing you to view and interact with the live versions.
 
-**Leora Info Tech** is located in Gummudipoondi and focuses on making software and providing IT services. They create websites, mobile apps, and help businesses use cloud computing. With a talented team and a promise of high quality, Leora Info Tech offers smart tech solutions to help businesses succeed.
+**Leora Info Tech** is located in Gummudipoondi and focuses on making software and providing IT services. They create websites, mobile apps, and help businesses use cloud computing. With a talented team and a promise of high quality, Leora Info Tech offers smart tech solutions to help businesses succeed. 💼🌐
 
-## Projects Overview
+## Projects Overview 📊
 
 Below is a list of the projects included in this repository, along with their live hosting links:
 
-### 3. Project Three: Decathlon Retailer Website - Clone
-- **Description**: A clone [Decathlon official ](https://www.decathlon.in/)  website with more functionality, including product listings, and a shopping cart. 
+### 3. Project Three: Decathlon Retailer Website - Clone 🛒
+- **Description**: A clone of the [Decathlon official website](https://www.decathlon.in/) with more functionality, including product listings and a shopping cart. 
 - **Live Link**: [View Project Three](https://example.com/project-three)
 - **Repo**: [decathlon-clone](/decathlon-clone/)
 
-### 2. Project Two: Clone Website
+### 2. Project Two: Clone Website 🌐
 - **Description**: A clone of a company-profile design website, using HTML, CSS techniques.
 - **Live Link**: [View Project Two](https://example.com/project-two)
 - **Repo**: [company-profile](/company-profile/)
 
-### 1. Project One: Sample Website
+### 1. Project One: Sample Website 🖥️
 - **Description**: A simple sample website demonstrating basic HTML, CSS.
 - **Live Link**: [View Project One](https://example.com/project-one)
 - **Repo**: [blog-events](/blog-events/)
 
-## How to View and Use
+## How to View and Use 🛠️
 
 1. **Clone the Repository**:
     ```bash
@@ -37,7 +37,7 @@ Below is a list of the projects included in this repository, along with their li
     - Each project is contained in its own folder.
     - Navigate to the desired project folder and open the `index.html` file in your web browser to view it locally.
 
-## Contributions
+## Contributions 🤝
 
 Contributions are welcome! If you would like to add your own projects or improve existing ones, please follow these steps:
 
@@ -57,9 +57,9 @@ Contributions are welcome! If you would like to add your own projects or improve
     ```
 6. **Open a Pull Request**
 
-## License
+## License 📜
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-##### Thank you for visiting the Leora Training Projects repository! We hope these projects inspire and help you in your learning journey.
+##### Thank you for visiting the Leora Training Projects repository! We hope these projects inspire and help you in your learning journey. 🌟
