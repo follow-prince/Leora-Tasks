@@ -1,0 +1,114 @@
+
+.caroseal_home4 {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  .caroseal_home4-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .caroseal_home4-open:checked + .caroseal_home4-item {
+    position: static;
+    opacity: 100;
+  }
+  
+  .caroseal_home4-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+  }
+  
+  .caroseal_home4-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .caroseal_home4-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+  }
+  
+  .caroseal_home4-control.prev4 {
+    left: 2%;
+  }
+  
+  .caroseal_home4-control.next4 {
+    right: 2%;
+  }
+  
+  .caroseal_home4-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+  }
+  
+  #caroseal_home4-1:checked ~ .control-1-4,
+  #caroseal_home4-2:checked ~ .control-2-4,
+  #caroseal_home4-3:checked ~ .control-3-4 {
+    display: block;
+  }
+  
+  .caroseal_home4-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .caroseal_home4-indicators li {
+    display: inline-block;
+    margin: 0 2px;
+  }
+  
+  .caroseal_home4-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .caroseal_home4-bullet:hover {
+    color: #aaaaaa;
+  }
+  
+  #caroseal_home4-1:checked
+    ~ .control-1-4
+    ~ .caroseal_home4-indicators
+    li:nth-child(1)
+    .caroseal_home4-bullet,
+  #caroseal_home4-2:checked
+    ~ .control-2-4
+    ~ .caroseal_home4-indicators
+    li:nth-child(2)
+    .caroseal_home4-bullet,
+  #caroseal_home4-3:checked
+    ~ .control-3-4
+    ~ .caroseal_home4-indicators
+    li:nth-child(3)
+    .caroseal_home4-bullet {
+    color: #428bca;
+  }
