@@ -15,8 +15,8 @@ body {
 .nav-bar {
   display: grid;
   grid-template-columns: 2fr 3fr 6fr 3fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 0;
+  padding: 0px;
   background-color: #f8f9fa;
   border-bottom: 1px solid #e9ecef;
 }
@@ -1609,6 +1609,20 @@ body {
 /* =============Mobile screen responsive============================= */
 
 @media (max-width: 768px) {
+  .outdoor_essentials_card img {
+    width: 127px;
+    padding-left: 5px;
+    padding-right: -20px;
+}
+.outdoor_essentials_card img {
+  width: 146px;
+  padding-left: 5px;
+  padding-right: -20px;
+}
+
+
+
+
   .nav-bar-dont-scroll {
     position: fixed;
     width: 100%;
@@ -1820,9 +1834,58 @@ body {
     /* padding-right: 890px; */
     grid-auto-rows: 100px 200px;
   }
+  .outdoor_essentials_card img {
+    width: 153px;
+    padding-left: 5px;
+    padding-right: -20px;
+}
+
+
 }
 .outdoor_essentials_card img {
   width: 198px;
   padding-left: 5px;
   padding-right: -20px;
+}
+
+@media (max-width: 375px) {
+  .outdoor_essentials_card img {
+    width: 150px;
+    padding-left: 5px;
+    padding-right: -20px;
+
+}
+.nav-search-bar {
+  width: 164px;
+}
+.nav-search-bar img {
+  display: none;
+}
+.nav-bar {
+  padding-right: 0;
+}
+.nav-logo img {
+  width: 80px;
+  padding-right: 10px;
+}
+
+}
+@media (max-width :468px) {
+  .outdoor_essentials_card img {
+    width: 106px;
+    padding-left: 5px;
+    padding-right: -20px;
+}
+
+
+  
+}
+@media (max-width : 300px) {
+  .outdoor_essentials_card img {
+    width: 106px;
+    padding-left: 5px;
+    padding-right: -20px;
+}
+
+
 }
