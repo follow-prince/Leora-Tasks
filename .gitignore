@@ -1,29 +1,29 @@
 # Logs
-ReactJs-NodeJs-mySQL/front-end/logs
-ReactJs-NodeJs-mySQL/front-end/*.log
-ReactJs-NodeJs-mySQL/front-end/npm-debug.log*
-ReactJs-NodeJs-mySQL/front-end/yarn-debug.log*
-ReactJs-NodeJs-mySQL/front-end/yarn-error.log*
-ReactJs-NodeJs-mySQL/front-end/pnpm-debug.log*
-ReactJs-NodeJs-mySQL/front-end/lerna-debug.log*
+ReactJs-NodeJs-mySQL/frontend/logs
+ReactJs-NodeJs-mySQL/frontend/*.log
+ReactJs-NodeJs-mySQL/frontend/npm-debug.log*
+ReactJs-NodeJs-mySQL/frontend/yarn-debug.log*
+ReactJs-NodeJs-mySQL/frontend/yarn-error.log*
+ReactJs-NodeJs-mySQL/frontend/pnpm-debug.log*
+ReactJs-NodeJs-mySQL/frontend/lerna-debug.log*
 
 ReactJs-NodeJs-mySQL/backend/.env
-ReactJs-NodeJs-mySQL/front-end/.env
-ReactJs-NodeJs-mySQL/front-end/node_modules
+ReactJs-NodeJs-mySQL/frontend/.env
+ReactJs-NodeJs-mySQL/frontend/node_modules
 ReactJs-NodeJs-mySQL/backend/node_modules
 
 node_modules
-ReactJs-NodeJs-mySQL/front-end/dist
-ReactJs-NodeJs-mySQL/front-end/dist-ssr
-ReactJs-NodeJs-mySQL/front-end/*.local
+ReactJs-NodeJs-mySQL/frontend/dist
+ReactJs-NodeJs-mySQL/frontend/dist-ssr
+ReactJs-NodeJs-mySQL/frontend/*.local
 
 # Editor directories and files
-ReactJs-NodeJs-mySQL/front-end/.vscode/*
-ReactJs-NodeJs-mySQL/front-end/!.vscode/extensions.json
-ReactJs-NodeJs-mySQL/front-end/.idea
-ReactJs-NodeJs-mySQL/front-end/.DS_Store
-ReactJs-NodeJs-mySQL/front-end/*.suo
-ReactJs-NodeJs-mySQL/front-end/*.ntvs*
-ReactJs-NodeJs-mySQL/front-end/*.njsproj
-ReactJs-NodeJs-mySQL/front-end/*.sln
-ReactJs-NodeJs-mySQL/front-end/*.sw?
+ReactJs-NodeJs-mySQL/frontend/.vscode/*
+ReactJs-NodeJs-mySQL/frontend/!.vscode/extensions.json
+ReactJs-NodeJs-mySQL/frontend/.idea
+ReactJs-NodeJs-mySQL/frontend/.DS_Store
+ReactJs-NodeJs-mySQL/frontend/*.suo
+ReactJs-NodeJs-mySQL/frontend/*.ntvs*
+ReactJs-NodeJs-mySQL/frontend/*.njsproj
+ReactJs-NodeJs-mySQL/frontend/*.sln
+ReactJs-NodeJs-mySQL/frontend/*.sw?
