@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+    font-family: "clock-time"; 
+    src: url("../assets/fonts/digital-7.ttf"); 
+} 
+  
+@font-face { 
+    font-family: "appleFont"; 
+    src: url("../assets/fonts/SF-Pro.ttf"); 
+} 
