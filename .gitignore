@@ -1,0 +1,28 @@
+# Logs
+ReactJs-NodeJs-mySQL/frontend/logs
+ReactJs-NodeJs-mySQL/frontend/*.log
+ReactJs-NodeJs-mySQL/frontend/npm-debug.log*
+ReactJs-NodeJs-mySQL/frontend/yarn-debug.log*
+ReactJs-NodeJs-mySQL/frontend/yarn-error.log*
+ReactJs-NodeJs-mySQL/frontend/pnpm-debug.log*
+ReactJs-NodeJs-mySQL/frontend/lerna-debug.log*
+
+ReactJs-NodeJs-mySQL/frontend/node_modules
+ReactJs-NodeJs-mySQL/frontend/node_modules
+ReactJs-NodeJs-mySQL/backend/node_modules
+
+node_modules
+ReactJs-NodeJs-mySQL/frontend/dist
+ReactJs-NodeJs-mySQL/frontend/dist-ssr
+ReactJs-NodeJs-mySQL/frontend/*.local
+
+# Editor directories and files
+ReactJs-NodeJs-mySQL/frontend/.vscode/*
+ReactJs-NodeJs-mySQL/frontend/!.vscode/extensions.json
+ReactJs-NodeJs-mySQL/frontend/.idea
+ReactJs-NodeJs-mySQL/frontend/.DS_Store
+ReactJs-NodeJs-mySQL/frontend/*.suo
+ReactJs-NodeJs-mySQL/frontend/*.ntvs*
+ReactJs-NodeJs-mySQL/frontend/*.njsproj
+ReactJs-NodeJs-mySQL/frontend/*.sln
+ReactJs-NodeJs-mySQL/frontend/*.sw?
