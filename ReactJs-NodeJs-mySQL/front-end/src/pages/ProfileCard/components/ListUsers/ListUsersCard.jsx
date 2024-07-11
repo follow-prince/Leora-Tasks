@@ -4,15 +4,10 @@ import StudyIcon from "../../../../assets/icons/courseIcon.svg";
 import GenderIcon from "../../../../assets/icons/gender.svg";
 import MailIcon from "../../../../assets/icons/mail.svg";
 
-
-
-
 const ListUsersCard = ({ user }) => {
-
-
   return (
-    <div >
-      <div   className="prince-h-[100%] prince-rounded-2xl prince-glass prince-opacity-80 prince-gap-10">
+    <div>
+      <div className="prince-h-[100%] prince-rounded-2xl prince-glass prince-opacity-80 prince-gap-10">
         <div className="prince-text-center prince-flex prince-flex-row prince-p-6 prince-justify-between">
           <div className="prince-ml-8 prince-mt-4 prince-flex prince-flex-col prince-text-left">
             <h3 className="prince-font-extrabold prince-text-3xl prince-font-AppleFont prince-uppercase prince-text-white prince-drop-shadow-lg">
@@ -68,20 +63,23 @@ const ListUsersCard = ({ user }) => {
                 </span>
               )}
               <div className="prince-gap-2 prince-grid-cols-2 prince-grid">
-                {user.skills.map((skill, index) => (
-                  <span
-                    key={index}
-                    className="prince-badge prince-badge-accent prince-badge-outline prince-mt-2 prince-p-1 prince-uppercase"
-                  >
-                    {skill}
-                  </span>
-                ))}
+                {user && user.skills ? (
+                  user.skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="prince-badge prince-badge-accent prince-badge-outline prince-mt-2 prince-p-1 prince-uppercase"
+                    >
+                      {skill}
+                    </span>
+                  ))
+                ) : (
+                  <div>no skills</div>
+                )}
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 };

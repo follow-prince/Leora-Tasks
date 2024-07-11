@@ -47,8 +47,8 @@ const ProfileCard = () => {
   // ______________________________________________
 
   // +++++++++++ send a data submit to api
-  const handleFormSubmit = async (e) => {
-    e.preventDefault();
+  const handleFormSubmit = async () => {
+    // e.preventDefault();
     try {
       await createUser(details); // send to api
 

@@ -7,7 +7,8 @@ ReactJs-NodeJs-mySQL/front-end/yarn-error.log*
 ReactJs-NodeJs-mySQL/front-end/pnpm-debug.log*
 ReactJs-NodeJs-mySQL/front-end/lerna-debug.log*
 
-ReactJs-NodeJs-mySQL/front-end/node_modules
+ReactJs-NodeJs-mySQL/backend/.env
+ReactJs-NodeJs-mySQL/front-end/.env
 ReactJs-NodeJs-mySQL/front-end/node_modules
 ReactJs-NodeJs-mySQL/backend/node_modules
 

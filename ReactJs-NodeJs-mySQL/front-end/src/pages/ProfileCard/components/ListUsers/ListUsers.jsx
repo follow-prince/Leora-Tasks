@@ -1,13 +1,12 @@
 /* eslint-disable react/prop-types */
-import {  useState } from "react";
+import { useState } from "react";
 import ListUsersEdit from "./ListUsersEdit";
 import DeleteIcon from "../../../../assets/icons/delete.svg";
 import { deleteUser } from "../../api/api";
 import ListUsersCard from "./ListUsersCard";
 
-const ListUsers = ({ users,fetchUsers }) => {
+const ListUsers = ({ users, fetchUsers }) => {
   const [currentUser, setCurrentUser] = useState(null);
-   
 
   // ~~~~~~~~~~~~ action methods ~~~~~~~~~~~~~~~~~~~~~~~~~
   const handleEditClick = (user) => {
@@ -20,21 +19,29 @@ const ListUsers = ({ users,fetchUsers }) => {
   };
 
   // this delete user
-  const handleDeleteClick = async(id) => {
+  const handleDeleteClick = async (id) => {
     await deleteUser(id); // req to api for delete user
     fetchUsers();
   };
-  
+
   const ClearUserDetails = () => {
     setCurrentUser(null);
   };
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   const parsedUsers = users.map((user) => {
-    return {
-      ...user,
-      skills: JSON.parse(user.skills),
-    };
+    try {
+      return {
+        ...user,
+        skills: JSON.parse(user.skills),
+      };
+    } catch (error) {
+      console.error("Error");
+      return {
+        ...user,
+        skills: [],
+      };
+    }
   });
 
   return (
@@ -57,7 +64,11 @@ const ListUsers = ({ users,fetchUsers }) => {
                   <div className="avatar">
                     <div className="prince-h-12 prince-w-12 prince-mask prince-mask-squircle ">
                       {user.image ? (
-                        <img className="prince-outline" src={`${user.image}`} alt="" />
+                        <img
+                          className="prince-outline"
+                          src={`${user.image}`}
+                          alt=""
+                        />
                       ) : (
                         <span>No Image</span>
                       )}
@@ -76,14 +87,18 @@ const ListUsers = ({ users,fetchUsers }) => {
               <td>
                 {user.course}
                 <br />
-                {user.skills.map((skill, index) => (
-                  <span
-                    key={index}
-                    className="prince-badge prince-badge-ghost prince-badge-sm"
-                  >
-                    <span className="prince-mr-1">{skill}</span>
-                  </span>
-                ))}
+                {user && user.skills ? (
+                  user.skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="prince-badge prince-badge-ghost prince-badge-sm"
+                    >
+                      <span className="prince-mr-1">{skill}</span>
+                    </span>
+                  ))
+                ) : (
+                  <div>No skills</div>
+                )}{" "}
               </td>
               <td>{user.email}</td>
               <td>{user.bio}</td>
@@ -116,7 +131,9 @@ const ListUsers = ({ users,fetchUsers }) => {
 
       <dialog id="my_modal_1" className="prince-modal">
         <div className="prince-modal-box prince-glass prince-opacity-90">
-          {currentUser && <ListUsersEdit     fetchUsers={fetchUsers}  user={currentUser} />}
+          {currentUser && (
+            <ListUsersEdit   fetchUsers={fetchUsers} user={currentUser} />
+          )}
           <div className="prince-modal-action">
             <form method="dialog">
               <button

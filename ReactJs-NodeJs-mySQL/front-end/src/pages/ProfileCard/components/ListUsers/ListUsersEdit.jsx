@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { updateUser } from "../../api/api";
 
-const ListUsersEdit = ({ user,fetchUsers }) => {
+const ListUsersEdit = ({ user, fetchUsers }) => {
   const [formData, setFormData] = useState({
     id: user.id,
     name: user.NAME,
@@ -15,9 +15,6 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
     image: user.image,
   });
 
-
-
-  
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     //  handing check box
@@ -26,8 +23,8 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
         ? [...formData.skills, value]
         : formData.skills.filter((skill) => skill !== value);
       setFormData({ ...formData, skills: newSkills });
-    } 
-  
+    }
+
     // image converting  to raw data
     else if (type === "file") {
       const file = e.target.files[0];
@@ -46,8 +43,7 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
     }
   };
 
-  
-   /// submit the all data update
+  /// submit the all data update
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -58,7 +54,7 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
     } catch (error) {
       console.error("Error updating user:", error);
     }
-    fetchUsers()
+    fetchUsers();
   };
 
   return (
@@ -145,7 +141,9 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
               className="prince-checkbox"
               name="skills"
               value="JavaScript"
-              checked={formData.skills.includes("JavaScript")}
+              checked={
+                formData.skills ? formData.skills.includes("JavaScript") : false
+              }
             />
             <span className="prince-label-text prince-text-slate-100">
               JavaScript
@@ -158,7 +156,9 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
               className="prince-checkbox"
               name="skills"
               value="Python"
-              checked={formData.skills.includes("Python")}
+              checked={
+                formData.skills ? formData.skills.includes("Python") : false
+              }
             />
             <span className="prince-label-text prince-text-slate-100">
               Python
@@ -171,7 +171,9 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
               className="prince-checkbox"
               name="skills"
               value="Java"
-              checked={formData.skills.includes("Java")}
+              checked={
+                formData.skills ? formData.skills.includes("Java") : false
+              }
             />
             <span className="prince-label-text prince-text-slate-100">
               Java
@@ -184,7 +186,9 @@ const ListUsersEdit = ({ user,fetchUsers }) => {
               className="prince-checkbox"
               name="skills"
               value="ReactJs"
-              checked={formData.skills.includes("ReactJs")}
+              checked={
+                formData.skills ? formData.skills.includes("ReactJs") : false
+              }
             />
             <span className="prince-label-text prince-text-slate-100">
               React Js
