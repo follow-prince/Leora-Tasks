@@ -3,7 +3,7 @@ const db = require("./db");
 const multer = require("multer");
 
 const router = express.Router();
-const upload = multer({ dest: "uploads/" });
+const upload = multer({ dest: "/" });
 
 // Create a new user
 router.post(
