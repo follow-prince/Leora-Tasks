@@ -5,6 +5,11 @@ const multer = require("multer");
 const router = express.Router();
 const upload = multer({ dest: "uploads/" });
 
+
+
+
+
+
 // Create a new user
 router.post(
   "/users",
