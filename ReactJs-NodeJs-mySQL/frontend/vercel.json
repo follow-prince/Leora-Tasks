@@ -2,16 +2,20 @@
     "version": 2,
     "builds": [
       {
-        "src": "vite.config.ts", 
-        "use": "@vercel/node", 
-        "config": {
-          "maxLambdaSize": "10mb" 
-        }
+        "src": "vite.config.js", 
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist" }
       }
     ],
     "routes": [
+      { "handle": "filesystem" },
       {
-        "src": "/(.*)", 
+        "src": "/(.*\\.(json|js|css|ico))",
+        "headers": { "cache-control": "public, max-age=31536000, immutable" },
+        "use": "@vercel/static"
+      },
+      {
+        "src": "/(.*)",
         "dest": "/index.html"
       }
     ]
