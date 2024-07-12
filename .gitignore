@@ -11,6 +11,10 @@ ReactJs-NodeJs-mySQL/backend/.env
 ReactJs-NodeJs-mySQL/frontend/.env
 ReactJs-NodeJs-mySQL/frontend/node_modules
 ReactJs-NodeJs-mySQL/backend/node_modules
+ReactJs-NodeJs-mySQL/frontend/package-lock.json
+ReactJs-NodeJs-mySQL/frontend/pnpm-lock.yaml
+
+
 
 node_modules
 ReactJs-NodeJs-mySQL/frontend/dist
