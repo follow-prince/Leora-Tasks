@@ -20,8 +20,6 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something issue");
 });
 
-const PORT = process.env.PORT || 8000;
+app.all('*', (req, res) => res.status(404).json(new ErrorResponseObject('route not defined')));
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+module.exports = app;
