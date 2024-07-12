@@ -13,14 +13,6 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({limit: '25mb', extended: true}));
 
 
-app.get('/', (req, res) => {
-  res.send('Hello World')
-})
-
-app.get('/about', (req, res) => {
-  res.send('About route 🎉 ')
-})
-
 app.use("/api", userRoutes);
 
 app.use((err, req, res, next) => {
