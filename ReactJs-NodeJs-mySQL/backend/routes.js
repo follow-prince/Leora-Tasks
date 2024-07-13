@@ -115,4 +115,24 @@ router.delete("/users/:id", async (req, res, next) => {
   }
 });
 
+
+// ====================================
+
+// Read all users
+router.get("/projects", async (req, res, next) => {
+  try {
+    const sql = "SELECT * FROM projects";
+    const [results] = await db.query(sql);
+
+    // EachUser store "users" array
+    const users = results.map((user) => {
+      return user;
+    });
+
+    res.status(200).json(users);
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;
