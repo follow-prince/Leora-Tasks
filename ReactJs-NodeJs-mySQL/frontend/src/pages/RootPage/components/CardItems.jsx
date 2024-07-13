@@ -22,7 +22,7 @@ const ProjectCard = ({ data }) => (
             <iframe
               src={data.webUrl}
               title={data.title}
-              className="prince-w-full  lg:prince-min-h-[600px] prince-min-h-[550px]"
+              className="prince-w-full  lg:prince-min-h-[500px] prince-min-h-[500px]"
             ></iframe>
           </div>
         </div>
