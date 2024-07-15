@@ -8,7 +8,6 @@ import { MdPreview, MdCancel } from "react-icons/md";
 
 const ProjectCard = ({ data }) => {
   const [showIframe, setShowIframe] = useState(false);
-  console.log(showIframe);
 
   return (
     <div>
@@ -27,7 +26,7 @@ const ProjectCard = ({ data }) => {
                 <iframe
                   src={data.webUrl}
                   title={data.title}
-                  className="prince-w-full lg:prince-min-h-[500px] prince-min-h-[500px]"
+                  className="prince-w-full lg:prince-min-h-[600px]  prince-min-h-[500px]"
                 ></iframe>
               )}
             </div>
